@@ -1,24 +1,6 @@
 
 import React, { useState } from 'react'
-import {
-  Bars3Icon,
-  BookmarkSquareIcon,
-  BriefcaseIcon,
-  BuildingOfficeIcon,
-  ChartBarIcon,
-  CheckCircleIcon,
-  ComputerDesktopIcon,
-  CursorArrowRaysIcon,
-  GlobeAltIcon,
-  InformationCircleIcon,
-  NewspaperIcon,
-  PhoneIcon,
-  PlayIcon,
-  ShieldCheckIcon,
-  Squares2X2Icon,
-  UserGroupIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline'
+
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 export default function HomePage(props) {
@@ -116,9 +98,10 @@ export default function HomePage(props) {
                     >
                       Technologies
                     </button>
-                    <Link href="/media">
+                      
                     </Link>
 
+                    <Link href="/media">
                     <button
                       type="button"
                       className="relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
@@ -129,12 +112,12 @@ export default function HomePage(props) {
                 </span>
               </p>
               <div className="mt-6">
-                <a
-                  href="#"
-                  className="inline-block rounded-md border border-transparent bg-slate-500 py-3 px-8 font-medium text-white hover:bg-indigo-700"
+                <Link
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=bernardmasache@gmail.com" target="_blank"
+                  className="inline-block rounded-md border border-transparent bg-slate-500 py-3 px-8 font-medium text-white hover:bg-sky-700"
                 >
                   Contact via email
-                </a>
+                </Link>
               </div>
 
               <div className='mt-6'>
