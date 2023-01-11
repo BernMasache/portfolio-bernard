@@ -150,7 +150,7 @@ const navigation = {
             <div className="grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold leading-6 text-white ">Tabs</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-white ">Navigations</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.tabs.map((item) => (
                       <li key={item.name}>
