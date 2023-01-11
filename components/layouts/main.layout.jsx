@@ -77,7 +77,7 @@ export default function MainLayout({ children }) {
 
                                     {/* Links */}
                                     <Tab.Group as="div" className="mt-2">
-                                       
+
                                         <Tab.Panels as={Fragment}>
 
                                             <div className="space-y-6 border-t border-gray-200 py-6 px-4">
@@ -90,7 +90,26 @@ export default function MainLayout({ children }) {
                                                     <Link href="/contact" className="-m-2 block p-2 font-medium text-gray-900">
                                                         Contact
                                                     </Link>
+
                                                 </div>
+
+                                                <div className="flow-root">
+                                                    <Link href="/projects" className="-m-2 block p-2 font-medium text-gray-900">
+                                                        Projects
+                                                    </Link>
+                                                </div>
+                                                <div className="flow-root">
+                                                    <Link href="/media" className="-m-2 block p-2 font-medium text-gray-900">
+                                                        Media
+                                                    </Link>
+                                                </div>
+                                                <div className="flow-root">
+                                                    <Link href="/technologies" className="-m-2 block p-2 font-medium text-gray-900">
+                                                        Technologies
+                                                    </Link>
+                                                </div>
+
+
                                             </div>
                                         </Tab.Panels>
                                     </Tab.Group>
@@ -126,12 +145,12 @@ export default function MainLayout({ children }) {
                                     </div>
                                 </form>
 
-                                <div className="flex items-center space-x-6">
+                                {/* <div className="flex items-center space-x-6">
 
                                     <Link href="/profile" className="text-sm font-medium text-white hover:text-gray-100">
                                         bernardmasache@gmail.com
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
@@ -150,7 +169,7 @@ export default function MainLayout({ children }) {
                                         </Link>
                                     </div>
 
-                                   
+
 
                                     {/* Mobile menu and search (lg-) */}
                                     <div className="flex flex-1 items-center lg:hidden">
