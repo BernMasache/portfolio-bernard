@@ -25,7 +25,7 @@ const features = [
     {
         name: 'Graphic designing',
         description:
-            'Poster and artworks designs or all sizes',
+            'Poster, banner, calendar, cards and artwork designs of all sizes',
     },
 ]
 
